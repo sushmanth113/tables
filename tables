@@ -1,0 +1,52 @@
+<Html>
+<head>
+<title> Table tags </title>
+</head>
+<body>
+<table border="3">
+<caption>sample table</caption>
+<Tr>
+<Td>cse</Td>
+<Td>ECE</Td>
+</Tr>
+<Tr>
+<Td>section-A</td>
+<Td>section-B</Td>
+</Tr>
+<Tr>
+<Td>section-1</td>
+<td>section-2</td>
+</tr>
+</table>
+<!--row span-->
+<Table border ="10">
+<caption>row span</caption>
+<tr>
+<td rowspan="2">UG</td>
+<td>B tech</td>
+</tr>
+<tr>
+<td> B COM</td>
+</tr>
+<tr>
+<td rowspan="2">PG</td>
+<td>M TECH</td>
+</tr>
+<tr>
+<td> M COM </td>
+</tr>
+</table>
+<!--column span-->
+<table border ="20">
+<caption>column span<caption>
+<tr>
+<td colspan="2" ALign ="center">UG</td>
+<td colspan="2" Align ="center">ECE</td>
+</tr>
+<tr>
+<td>B TECH </td>
+<td>B COM </td>
+<td>MTECH</td>
+<td>M COM</td>
+</tr>
+</table>
